@@ -1,0 +1,76 @@
+h1{
+  color: #ffe6f2;
+  background-color: #000099;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Courier New";
+  font-weight: bold;
+
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+p{
+  color:yellow;
+}
+
+#yellowtitle{
+  color:yellow;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 300px;
+  border: 50px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+ 
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: pink;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: blue;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
